@@ -17,17 +17,170 @@
 					<a href="#">клиенты</a>
 					<a href="#">магазин</a>
 					<a href="#">контакты</a>
-					<a class="cart" href="#">корзина</a>
+					<a href="#"  class="cart">корзина</a>
 				</nav>
 			</div>
+			<h1>добро пожаловать в магазин  готовых макетов</h1>
 		</header>
 		<main class="container">
-			
+			<div class="catalog">
+				<div class="catalog-left-column">
+					<form action="">
+						<h3>Стоимость:</h3>
+						<div class="catalog-range-filter">
+								<div class="catalog-filter-controls">
+										<div class="catalog-filter-scale">
+												<div class="catalog-scale-bar"></div>
+										</div>
+										<div class="catalog-min-toggle"></div>
+										<div class="catalog-max-toggle"></div>
+								</div>
+								<div class="catalog-price-controls">
+										<div class="catalog-controls-left">
+												<span>от</span>
+												<input class="catalog-min-price" type="text" value="0">
+										</div>
+										<div class="catalog-controls-right">
+												<span>до</span>
+												<input class="catalog-max-price" type="text" value="15 000">
+										</div>
+								</div>
+						</div>
+						<h3>Сетка:</h3>
+						<input type="radio" name="grid" id="adaptive" value="adaptive" checked>
+						<label class="catalog-label" for="adaptive">Адаптивная</label>
+						<input type="radio" name="grid" id="rubber" value="rubber">
+						<label class="catalog-label" for="rubber">Резинования</label>
+						<input type="radio" name="grid" id="fixed" value="fixed">
+						<label class="catalog-label" for="fixed">Фиксированная</label>
+						<h3>Особенности:</h3>
+						<input id="slider" name="slider" type="checkbox" value="slider" checked>
+						<label class="catalog-label" for="slider">Слайдер</label>
+						<input id="advantages" name="advantages" type="checkbox" value="advantages">
+						<label class="catalog-label" for="advantages">Блок преимуществ</label>
+						<input id="news" name="news" type="checkbox" value="news" checked>
+						<label class="catalog-label" for="news">Новости</label>
+						<input id="gallery" name="gallery" type="checkbox" value="gallery">
+						<label class="catalog-label" for="gallery">Галлерея</label>
+						<input id="cart" name="cart" type="checkbox" value="cart">
+						<label class="catalog-label" for="cart">Корзина</label>
+						<button type="submit" class="btn filter-btn">Показать</button>							
+					</form>
+				</div>
+				<div class="catalog-right-column">
+					<div class="catalog-sort">
+						<span>Сортировать</span>
+						<a href="#">по цене</a>
+						<a href="#">по типу</a>
+						<a href="#">по функционалу</a>	
+						<div class="catalog-sort-arrow">
+							<a href="#" class="catalog-sort-up"></a>
+							<a href="#" class="catalog-sort-down"></a>
+						</div>
+					</div>
+					<div class="catalog-block">
+						<a href="#" class="catalog-item">
+							<figure class="catalog-image">
+									<img src="http://placehold.it/150x100" width="" height="" alt="">
+							</figure>
+							<div class="catalog-item-block">
+									<h3>suset</h3>
+									<p>интернет-магазин с личным кабинетом</p>
+									<span class="catalog-item-btn">10000 р.</span>
+							</div>
+						</a>
+						<a href="#" class="catalog-item">
+							<figure class="catalog-image">
+									<img src="http://placehold.it/150x100" width="" height="" alt="">
+							</figure>
+							<div class="catalog-item-block">
+									<h3>suset</h3>
+									<p>интернет-магазин с личным кабинетом</p>
+									<span class="catalog-item-btn">10000 р.</span>
+							</div>
+						</a>
+						<a href="#" class="catalog-item">
+							<figure class="catalog-image">
+									<img src="http://placehold.it/150x100" width="" height="" alt="">
+							</figure>
+							<div class="catalog-item-block">
+									<h3>suset</h3>
+									<p>интернет-магазин с личным кабинетом</p>
+									<span class="catalog-item-btn">10000 р.</span>
+							</div>
+						</a>
+						<a href="#" class="catalog-item">
+							<figure class="catalog-image">
+									<img src="http://placehold.it/150x100" width="" height="" alt="">
+							</figure>
+							<div class="catalog-item-block">
+									<h3>suset</h3>
+									<p>интернет-магазин с личным кабинетом</p>
+									<span class="catalog-item-btn">10000 р.</span>
+							</div>
+						</a>
+						<a href="#" class="catalog-item">
+							<figure class="catalog-image">
+									<img src="http://placehold.it/150x100" width="" height="" alt="">
+							</figure>
+							<div class="catalog-item-block">
+									<h3>suset</h3>
+									<p>интернет-магазин с личным кабинетом</p>
+									<span class="catalog-item-btn">10000 р.</span>
+							</div>
+						</a>
+						<a href="#" class="catalog-item">
+							<figure class="catalog-image">
+									<img src="http://placehold.it/150x100" width="" height="" alt="">
+							</figure>
+							<div class="catalog-item-block">
+									<h3>suset</h3>
+									<p>интернет-магазин с личным кабинетом</p>
+									<span class="catalog-item-btn">10000 р.</span>
+							</div>
+						</a>						
+					</div>
+					<div class="catalog-paginator">
+						<a href="#" class="current">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#" class="catalog-paginator-next">Следующая</a>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer class="main-footer">
-			<div class="map"></div>
-			<div class="bottom-footer"></div>
-			<div class="feedback"></div>
+			<div class="map">
+				<div class="container">
+					<div class="map-contacts">
+						<h3>nerds design studio</h3>
+						<p>191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8</p>
+						<p>тел. +7 (861) 275-75-75</p>
+						<a href="" class="map-btn">напишите нам</a>
+					</div>
+					<div class="feedback">
+						<label for="feedback-login" class="feedback-data">ваше имя:</label>
+            <input type="text" required="" placeholder="представьтесь, пожалуйста" id="feedback-login" name="login">
+						<label for="feedback-email" class="feedback-data">ваш e-mail:</label>
+            <input type="email" required="" placeholder="для отправки ответа" id="feedback-email" name="email">
+						<label for="feedback-textarea" class="feedback-data">текст письма:</label>
+            <textarea rows="" required="" placeholder="в свободной форме" id="feedback-textarea" name="text"></textarea>
+						<button class="feedback-btn" type="submit">отправить</button>
+						<a href="" class="feedback-cancel">отмена</a>						
+					</div>
+				</div>
+			</div>
+			<div class="bottom-footer">
+				<div class="bottom-footer-left">
+					<a class="footer-btn footer-btn-vk" href="#"></a>
+					<a class="footer-btn footer-btn-fb" href="#"></a>
+					<a class="footer-btn footer-btn-inst" href="#"></a>
+				</div>
+				<div class="bottom-footer-right">
+					<h2 class="footer-title">давайте дружить, это выгодно!</h2>
+					<p class="footer-info">скидка 10% для друзей из социальных сетей.<p> 
+				</div>
+			</div>
 		</footer>
   </body>
 </html>
