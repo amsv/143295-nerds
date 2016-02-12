@@ -1,4 +1,6 @@
 body {
+	margin: 0;
+  padding: 0;
 	font-size: 16px;
 	line-height: 22px;
 	color: #000000;
@@ -22,19 +24,17 @@ h2 {
 	font-family: "Roboto Medium", Arial, sans-serif;
 }
 
-Только для оформления сетки  
-html,
+/* Только для оформления сетки */  
+/* html,
 body {
   min-width: 1200px;
-  min-height: 2246px;
-  margin: 0;
-  padding: 0;
+  min-height: 2256px;
 } 
 body {
   background: #ffffff url("../img/index-grid.jpg") no-repeat 50% 0px; 
-	/* background: #000000 url("../img/barbershop-catalog-item-grid.jpg") no-repeat 50% 0px;*/  
+	/* background: #000000 url("../img/barbershop-catalog-item-grid.jpg") no-repeat 50% 0px;  
   background-size: 1200px auto;
-} 
+}  */
 
 .clearfix::after {
 	content: "";
@@ -44,8 +44,8 @@ body {
  
 .main-header {
 	
-  /* Только для оформления сетки */
-  min-height: 83px;
+  /* Только для оформления сетки 
+  min-height: 83px*/
 	outline: 1px solid rgb(0, 128, 0);
 	background: rgba(0, 128, 0,0.5);
 }
@@ -55,10 +55,14 @@ body {
 	margin: 0 auto;
   padding: 0 10px;
   
-  /*Только для оформления сетки */
-  min-height: 83px;
+  /*Только для оформления сетки 
+  min-height: 83px;*/
 	outline: 1px solid rgb(255, 45, 82);
-	background: rgba(255, 45, 82,0.5);
+	background: rgba(255, 45, 82,0.4);
+}
+
+.main-header-block {
+	margin-bottom: 35px;	
 }
 
  .main-header-logo {
@@ -83,17 +87,15 @@ body {
 	outline: 1px solid rgb(234, 255, 45);
 	background: rgba(234, 255, 45, 0.2);
 }
-.main-header-block {
-	margin-bottom: 35px;	
-}
+
 
 .slider-left-column {
 	float: left;
-	width: 480px;
+	width: 470px;
+	min-height: 320px;
 	
-	
-  /*Только для оформления сетки */
-	min-height: 200px;
+  /*Только для оформления сетки 
+	min-height: 200px;*/
 	outline: 1px solid rgb(234, 255, 45);
 	background: rgba(234, 255, 45, 0.2);
 }
@@ -101,10 +103,10 @@ body {
  .slider-right-column {
 	float: right;
 	width: 340px;
+	min-height: 320px;
 	
-	
-  /*Только для оформления сетки */
-  min-height: 320px;
+  /*Только для оформления сетки*/ 
+  
 	outline: 1px solid rgb(234, 255, 45);
 	background: rgba(234, 255, 45, 0.2);
 }
@@ -113,12 +115,148 @@ body {
  .slider-right-column > img {
 	display: block;	
 }
-/*.inner-page {
-	padding-top: 55px;
-	padding-bottom: 50px;
-	
-	 Только для оформления сетки 
-  min-height: 855px;
+
+.main-content {
+/* Только для оформления сетки 
+  min-height: 83px;*/
 	outline: 1px solid rgb(0, 128, 0);
-	background: rgba(0, 128, 0,0.2);*/
+	background: rgba(0, 128, 0,0.5);
+	
+}
+
+.offer {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.offer-index-left {
+	float: left;
+	width: 240px;
+	margin-right: 80px;
+	min-height: 300px;
+	
+  /*Только для оформления сетки*/ 
+  
+	outline: 1px solid rgb(234, 255, 45);
+	background: rgba(234, 255, 45, 0.2);		
+}
+
+.offer-index-middle {
+	float: left;
+	width: 240px;
+	min-height: 300px;
+	
+  /*Только для оформления сетки*/ 
+  
+	outline: 1px solid rgb(234, 255, 45);
+	background: rgba(234, 255, 45, 0.2);		
+}
+
+.offer-index-right {
+	float: right;
+	width: 240px;
+	min-height: 300px;
+	
+  /*Только для оформления сетки*/ 
+  
+	outline: 1px solid rgb(234, 255, 45);
+	background: rgba(234, 255, 45, 0.2);		
+}
+
+.features {
+	padding-top: 58px;
+	padding-bottom: 62px;
+	border-top: 2px solid #EEEEEE;
+	border-bottom: 2px solid #EEEEEE;
+}
+
+.features-left-column {
+	float: left;
+	width: 575px;
+	margin-right: 65px;
+	min-height: 345px;
+	
+  /*Только для оформления сетки*/ 
+  
+	outline: 1px solid rgb(234, 255, 45);
+	background: rgba(234, 255, 45, 0.2);	
+}
+
+.features-right-column {
+	float: left;
+	width: 230px;
+	min-height: 345px;
+	
+  /*Только для оформления сетки*/ 
+  
+	outline: 1px solid rgb(234, 255, 45);
+	background: rgba(234, 255, 45, 0.2);	
+}
+
+.site-logo {
+	margin-bottom: 85px;
+	padding-top: 50px;
+	font-size: 0;
+	min-height: 120px;
+	border-bottom: 2px solid #EEEEEE;text-align: center;
+}
+
+.site-logo-item {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 120px;
+	
+}
+
+.site-logo-item:last-child {
+	margin-right: 10px;
+	
+}
+
+.map {
+	height: 416px;
+	padding-top: 1px;
+	/* Только для оформления сетки 
+  min-height: 83px*/
+	outline: 1px solid rgb(0, 128, 0);
+	background: rgba(0, 128, 0,0.5);
+	
+}
+
+ .map-contacts {
+  width: 250px;
+  margin-top: 87px;
+	min-height: 240px;
+  
+  /*Только для оформления сетки 
+  */
+	outline: 1px solid rgb(255, 45, 82);
+	background: rgba(255, 45, 82,0.4);
+}
+
+.bottom-footer {
+	padding-top: 70px;
+	
+}
+
+.bottom-footer-left{
+	float: left;
+	width: 240px;
+	margin-right: 80px;
+	min-height: 70px;
+	
+  /*Только для оформления сетки*/ 
+  
+	outline: 1px solid rgb(234, 255, 45);
+	background: rgba(234, 255, 45, 0.2);	
+}
+
+.bottom-footer-right {
+	float: left;
+	width: 560px;
+	min-height: 70px;
+  /*Только для оформления сетки*/ 
+  
+	outline: 1px solid rgb(234, 255, 45);
+	background: rgba(234, 255, 45, 0.2);	
 }
