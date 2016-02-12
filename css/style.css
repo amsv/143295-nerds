@@ -21,3 +21,104 @@ h2 {
 	font-weight: 500;
 	font-family: "Roboto Medium", Arial, sans-serif;
 }
+
+Только для оформления сетки  
+html,
+body {
+  min-width: 1200px;
+  min-height: 2246px;
+  margin: 0;
+  padding: 0;
+} 
+body {
+  background: #ffffff url("../img/index-grid.jpg") no-repeat 50% 0px; 
+	/* background: #000000 url("../img/barbershop-catalog-item-grid.jpg") no-repeat 50% 0px;*/  
+  background-size: 1200px auto;
+} 
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+ 
+.main-header {
+	
+  /* Только для оформления сетки */
+  min-height: 83px;
+	outline: 1px solid rgb(0, 128, 0);
+	background: rgba(0, 128, 0,0.5);
+}
+
+ .container {
+  width: 880px;
+	margin: 0 auto;
+  padding: 0 10px;
+  
+  /*Только для оформления сетки */
+  min-height: 83px;
+	outline: 1px solid rgb(255, 45, 82);
+	background: rgba(255, 45, 82,0.5);
+}
+
+ .main-header-logo {
+	float: left;
+	width: 150px;
+	padding-right: 10px;
+	min-height: 83px;
+	
+  /*Только для оформления сетки 
+  min-height: 70px;*/
+	outline: 1px solid rgb(234, 255, 45);
+	background: rgba(234, 255, 45, 0.2);
+}
+
+ .main-header-menu {
+	float: right;
+	width: 560px;
+	min-height: 83px;
+	
+  /*Только для оформления сетки 
+  min-height: 83px;*/
+	outline: 1px solid rgb(234, 255, 45);
+	background: rgba(234, 255, 45, 0.2);
+}
+.main-header-block {
+	margin-bottom: 35px;	
+}
+
+.slider-left-column {
+	float: left;
+	width: 480px;
+	
+	
+  /*Только для оформления сетки */
+	min-height: 200px;
+	outline: 1px solid rgb(234, 255, 45);
+	background: rgba(234, 255, 45, 0.2);
+}
+
+ .slider-right-column {
+	float: right;
+	width: 340px;
+	
+	
+  /*Только для оформления сетки */
+  min-height: 320px;
+	outline: 1px solid rgb(234, 255, 45);
+	background: rgba(234, 255, 45, 0.2);
+}
+
+/* убираю лишний отступ в слайдере под картинкой */
+ .slider-right-column > img {
+	display: block;	
+}
+/*.inner-page {
+	padding-top: 55px;
+	padding-bottom: 50px;
+	
+	 Только для оформления сетки 
+  min-height: 855px;
+	outline: 1px solid rgb(0, 128, 0);
+	background: rgba(0, 128, 0,0.2);*/
+}
