@@ -24,17 +24,17 @@ h2 {
 	font-family: "Roboto Medium", Arial, sans-serif;
 }
 
-/* Только для оформления сетки */  
+/* Только для оформления сетки  
  html,
 body {
   min-width: 1200px;
-  min-height: 2256px;
+  min-height: 2246px;
 } 
 body {
-  /* background: #ffffff url("../img/index-grid.jpg") no-repeat 50% 0px;*/ 
-	background: #000000 url("../img/barbershop-catalog-item-grid.jpg") no-repeat 50% 0px;  
+  background: #ffffff url("../img/index-grid.jpg") no-repeat 50% 0px; 
+	background: #000000 url("../img/catalog-grid.jpg") no-repeat 50% 0px;  
   background-size: 1200px auto;
-}  
+} */  
 
 .clearfix::after {
 	content: "";
@@ -62,14 +62,15 @@ body {
 }
 
 .main-header-block {
-	margin-bottom: 35px;	
+	margin-bottom: 30px;	
 }
 
  .main-header-logo {
 	float: left;
 	width: 150px;
+	margin-top: 27px;
 	padding-right: 10px;
-	min-height: 83px;
+	min-height: 56px;
 	
   /*Только для оформления сетки 
   min-height: 70px;*/
@@ -80,7 +81,8 @@ body {
  .main-header-menu {
 	float: right;
 	width: 560px;
-	min-height: 83px;
+	margin-top: 55px;
+	
 	
   /*Только для оформления сетки 
   min-height: 83px;*/
@@ -117,6 +119,7 @@ body {
 }
 
 .main-content {
+	padding-bottom: 79px;
 /* Только для оформления сетки 
   min-height: 83px;*/
 	outline: 1px solid rgb(0, 128, 0);
@@ -270,3 +273,86 @@ body {
 	outline: 1px solid rgb(234, 255, 45);
 	background: rgba(234, 255, 45, 0.2);
 }
+
+.inner-header {
+	margin-top: 70px; 
+	padding-bottom: 94px;
+	/*Только для оформления сетки*/ 
+  min-height: 82px;
+	outline: 1px solid rgb(234, 255, 45);
+	background: rgba(234, 255, 45, 0.2);
+}
+
+.catalog {
+	padding-top: 76px;
+	/* Только для оформления сетки 
+  min-height: 83px
+	outline: 1px solid rgb(0, 128, 0);
+	background: rgba(0, 128, 0,0.5);*/
+}
+
+.catalog-left-column {
+	float: left;
+	width: 240px;
+	
+	/*Только для оформления сетки*/ 
+  min-height: 732px;
+	outline: 1px solid rgb(234, 255, 45);
+	background: rgba(234, 255, 45, 0.2);
+}
+
+.catalog-filter-controls {
+	width: 240px;
+	min-height: 80px;
+	
+}
+
+.catalog-right-column {
+	float: right;
+	width: 570px;
+	
+	/*Только для оформления сетки*/ 
+  
+	outline: 1px solid rgb(234, 255, 45);
+	background: rgba(234, 255, 45, 0.2);
+}
+
+.catalog-sort {
+	margin-bottom: 20px;
+	
+}
+
+.catalog-block {
+	font-size: 0;	
+	text-align: right;
+	line-height: 160px;
+	
+}
+
+.catalog-item {
+	padding-top: 30px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 80px;
+	width: 240px;
+	
+}
+.catalog-item figure {
+	margin: 0;
+	
+}
+ .catalog-item:nth-child(2n) {
+	margin-right: 0;
+	
+}
+
+.catalog-item-block {
+	display: none;
+	font-size: 16px;
+}
+
+.catalog-paginator {
+	min-height: 38px;
+		
+}
+
