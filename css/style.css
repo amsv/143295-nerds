@@ -25,16 +25,16 @@ h2 {
 }
 
 /* Только для оформления сетки */  
-/* html,
+ html,
 body {
   min-width: 1200px;
   min-height: 2256px;
 } 
 body {
-  background: #ffffff url("../img/index-grid.jpg") no-repeat 50% 0px; 
-	/* background: #000000 url("../img/barbershop-catalog-item-grid.jpg") no-repeat 50% 0px;  
+  /* background: #ffffff url("../img/index-grid.jpg") no-repeat 50% 0px;*/ 
+	background: #000000 url("../img/barbershop-catalog-item-grid.jpg") no-repeat 50% 0px;  
   background-size: 1200px auto;
-}  */
+}  
 
 .clearfix::after {
 	content: "";
@@ -259,4 +259,14 @@ body {
   
 	outline: 1px solid rgb(234, 255, 45);
 	background: rgba(234, 255, 45, 0.2);	
+}
+
+.feedback {
+	width: 630px;
+	padding: 54px 90px 50px 80px;
+	
+	/*Только для оформления сетки*/ 
+  
+	outline: 1px solid rgb(234, 255, 45);
+	background: rgba(234, 255, 45, 0.2);
 }
