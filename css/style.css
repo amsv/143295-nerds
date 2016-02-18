@@ -1,10 +1,10 @@
-@charset "utf-8";
 @font-face {
-	font-family: symbols-nerds;
-	src: url("../font/symbols-nerds.eot?27841936");
-	src: url("../font/symbols-nerds.eot?27841936#iefix") format("embedded-opentype"), url("../font/symbols-nerds.woff?27841936") format("woff"), url("../font/symbols-nerds.ttf?27841936") format("truetype"), url("../font/symbols-nerds.svg?27841936#symbols-nerds") format("svg");
-	font-weight: normal;
-	font-style: normal;
+  font-weight: normal;
+  font-style: normal;
+
+  font-family: "symbols-nerds";
+  src: url("../fonts/symbols-nerds.woff") format("woff"),
+       url("../fonts/symbols-nerds.woff2") format("woff2");
 }
 
 [class^="icon-"]::before,
@@ -50,6 +50,16 @@ body {
 	line-height: 22px;
 }
 
+h2 {
+	font-size: 36px;
+	line-height: 36px;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
 p,
 ul,
 h1,
@@ -215,8 +225,7 @@ img {
 	color: #bcbcbc;
 }
 .main-header {
-/*для теста
-	background: #eeeeee;*/
+	background: #eeeeee;
 }
 
 .slider {
@@ -360,28 +369,6 @@ img {
 #btn-3:checked ~ .slider-controls label[for="btn-3"] {
   background: #c1c1c1;
 }
-/* old slider
-.slider-left-column {
-	float: left;
-	width: 470px;
-	min-height: 320px;
-	
-  Только для оформления сетки 
-	min-height: 200px;
-	outline: 1px solid rgb(234, 255, 45);
-	background: rgba(234, 255, 45, 0.2);
-}
-
- .slider-right-column {
-	float: right;
-	width: 340px;
-	min-height: 320px;
-	
-  Только для оформления сетки 
-  
-	outline: 1px solid rgb(234, 255, 45);
-	background: rgba(234, 255, 45, 0.2);
-}
 
 убираю лишний отступ в слайдере под картинкой */
  .slider-right-column > img {
@@ -391,16 +378,13 @@ img {
 
 .main-content {
 	padding-bottom: 79px;
-/* Только для оформления сетки 
-  min-height: 83px;*/
-	outline: 1px solid rgb(0, 128, 0);
-	background: rgba(0, 128, 0,0.5);
+
 	
 }
 
 .offer {
 	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-bottom: 71px;
 }
 
 .offer-index-left {
@@ -409,32 +393,28 @@ img {
 	margin-right: 80px;
 	min-height: 300px;
 	
-  /*Только для оформления сетки*/ 
-  
-	outline: 1px solid rgb(234, 255, 45);
-	background: rgba(234, 255, 45, 0.2);		
+
+}
+
+.offer h3 {
+	margin-top: 20px;
+	margin-bottom: 14px;
+	font-size: 18px;
+	line-height: 30px
 }
 
 .offer-index-middle {
 	float: left;
 	width: 240px;
 	min-height: 300px;
-	
-  /*Только для оформления сетки*/ 
-  
-	outline: 1px solid rgb(234, 255, 45);
-	background: rgba(234, 255, 45, 0.2);		
+		
 }
 
 .offer-index-right {
 	float: right;
 	width: 240px;
 	min-height: 300px;
-	
-  /*Только для оформления сетки*/ 
-  
-	outline: 1px solid rgb(234, 255, 45);
-	background: rgba(234, 255, 45, 0.2);		
+			
 }
 
 
@@ -459,7 +439,6 @@ img {
 		
 }
 .features {
-	padding-top: 58px;
 	padding-bottom: 62px;
 	border-top: 2px solid #EEEEEE;
 	border-bottom: 2px solid #EEEEEE;
@@ -468,6 +447,7 @@ img {
 .features-left-column {
 	float: left;
 	width: 575px;
+	margin-top: 70px;
 	margin-right: 65px;
 	min-height: 345px;
 	
@@ -477,9 +457,32 @@ img {
 	background: rgba(234, 255, 45, 0.2);	
 }
 
+.features h2 {
+	margin-bottom: 20px;
+}
+
+.features-left-column p {
+	font-size: 16px;
+	line-height: 22px;
+	
+}
+
+.features-list-titel {
+	margin-top: 43px;
+	margin-bottom: 11px;
+	text-transform: uppercase;
+}
+
+.features-list li {
+	padding-left: 36px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	
+}
 .features-right-column {
 	float: left;
 	width: 230px;
+	margin-top: 60px;
 	min-height: 345px;
 	
   /*Только для оформления сетки*/ 
@@ -488,6 +491,11 @@ img {
 	background: rgba(234, 255, 45, 0.2);	
 }
 
+.features-right-column img {
+	width: 187px;
+	margin: 0 5px 0 5px;
+	
+}
 .site-logo {
 	margin-bottom: 85px;
 	padding-top: 50px;
@@ -661,7 +669,19 @@ body {
   background-size: 1200px auto;
 }   
 
-
-.offer-btn {
-	
+.offer p {
+	font-size: 15px;
+	line-height: 22px;
 }
+
+.offer-index-left .offer-btn {	
+	background-color: #fb565a;
+}
+
+.offer-index-middle .offer-btn {	
+	background-color: #00ca74;
+} 
+
+.offer-index-right .offer-btn {	
+	background-color: #efc84a;
+} 
