@@ -84,7 +84,7 @@
 					<div class="catalog-block">
 						<a href="#" class="catalog-item">
 							<figure class="catalog-image">
-									<img src="img/catalog-item-aviator.jpg" width="240" height="240" alt="">
+									<img src="img/catalog-item-aviator.jpg" width="240" height="240" alt="Aviato">
 							</figure>
 							<div class="catalog-item-block">
 									<h3>suset</h3>
@@ -94,7 +94,7 @@
 						</a>
 						<a href="#" class="catalog-item">
 							<figure class="catalog-image">
-									<img src="img/catalog-item-desert.jpg" width="240" height="240" alt="">
+									<img src="img/catalog-item-desert.jpg" width="240" height="240" alt="Desert">
 							</figure>
 							<div class="catalog-item-block">
 									<h3>suset</h3>
@@ -104,7 +104,7 @@
 						</a>
 						<a href="#" class="catalog-item">
 							<figure class="catalog-image">
-									<img src="img/catalog-item-forte.jpg" width="240" height="240" alt="">
+									<img src="img/catalog-item-forte.jpg" width="240" height="240" alt="Forte">
 							</figure>
 							<div class="catalog-item-block">
 									<h3>suset</h3>
@@ -114,7 +114,7 @@
 						</a>
 						<a href="#" class="catalog-item">
 							<figure class="catalog-image">
-									<img src="img/catalog-item-modern.jpg" width="240" height="240" alt="">
+									<img src="img/catalog-item-modern.jpg" width="240" height="240" alt="Modern">
 							</figure>
 							<div class="catalog-item-block">
 									<h3>suset</h3>
@@ -125,7 +125,7 @@
 						<a href="#" class="catalog-item">
 							<figure class="catalog-image">
 									<img src="img/catalog-item-avenue.jpg
-									" width="240" height="240" alt="">
+									" width="240" height="240" alt="Avenue">
 							</figure>
 							<div class="catalog-item-block">
 									<h3>suset</h3>
@@ -135,7 +135,7 @@
 						</a>
 						<a href="#" class="catalog-item">
 							<figure class="catalog-image">
-									<img src="img/catalog-item-dovetail.jpg" width="240" height="240" alt="">
+									<img src="img/catalog-item-dovetail.jpg" width="240" height="240" alt="Dovetail">
 							</figure>
 							<div class="catalog-item-block">
 									<h3>suset</h3>
@@ -157,10 +157,10 @@
 			<div class="map">
 				<div class="container">
 					<div class="map-contacts">
-						<h3>nerds design studio</h3>
-						<p>191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8</p>
-						<p>тел. +7 (861) 275-75-75</p>
-						<a href="" class="map-btn">напишите нам</a>
+						<h3>NЁRDS DESIGN STUDIO</h3>
+						<p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+						<p>тел. +7 (812) 275-75-75</p>
+						<a href="" class="btn feedback-btn">напишите нам</a>
 					</div>
 				</div>
 			</div>
@@ -171,22 +171,32 @@
 					<a class="footer-btn footer-btn-inst" href="#"></a>
 				</div>
 				<div class="bottom-footer-right">
-					<h2 class="footer-title">давайте дружить, это выгодно!</h2>
-					<p class="footer-info">скидка 10% для друзей из социальных сетей.<p> 
+					<p class="bottom-footer-slogan">Давайте дружить, это выгодно!</p>
+					<p>Скидка 10% для друзей из социальных сетей.<p> 
 				</div>
 			</div>
 		</footer>
-		<div class="feedback container">
-			<form action="">
-				<label for="feedback-login" class="feedback-data">ваше имя:</label>
-				<input type="text" required="" placeholder="представьтесь, пожалуйста" id="feedback-login" name="login">
-				<label for="feedback-email" class="feedback-data">ваш e-mail:</label>
-				<input type="email" required="" placeholder="для отправки ответа" id="feedback-email" name="email">
-				<label for="feedback-textarea" class="feedback-data">текст письма:</label>
-				<textarea rows="" required="" placeholder="в свободной форме" id="feedback-textarea" name="text"></textarea>
-				<button class="feedback-btn" type="submit">отправить</button>
-				<a href="" class="feedback-cancel">отмена</a>
-			</form>						
-		</div>		
+    <div class="feedback">
+			<form action="/feedback" method="post">
+				<div class="feedback-user clearfix">
+					<div class="feedback-left-column">
+						<label class="feedback-data" for="feedback-login">Ваше имя:</label>
+						<input type="text" name="login" id="feedback-login" placeholder="Представьтесь, пожалуйста" required>
+					</div>
+					<div class="feedback-right-column">
+						<label class="feedback-data" for="feedback-email">Ваш e-mail:</label>
+						<input type="email" name="email" id="feedback-email" placeholder="Для отправки ответа" required>
+					</div>
+				</div>
+				<label class="feedback-data" for="feedback-textarea">Текст письма:</label>
+				<textarea name="text" id="feedback-textarea" placeholder="В свободной форме" required rows="5"></textarea>
+				<div class="feedback-block clearfix">
+					<button type="submit" class="btn feedback-btn">Отправить</button>
+					<a class="btn feedback-cancel" href="#">Отмена</a>
+				</div>
+				<a href="#" class="feedback-circle-btn"></a>
+			</form>
+    </div>
+    <script src="js/script.js"></script>	
   </body>
 </html>
