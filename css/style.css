@@ -21,6 +21,7 @@
   font-style: normal;
   font-variant: normal;
   speak: none;
+	vertical-align: baseline;
 }
 
 .icon-basket::before { content: "\62"; } /* "b" */
@@ -416,6 +417,7 @@ img {
   text-decoration: none;
   background: #fb565a;
   border-radius: 3px;
+	vertical-align: top;
 }
 
 .btn:hover {
@@ -673,6 +675,7 @@ img {
 .catalog-item {
 	position: relative;
 	display: inline-block;
+	vertical-align: top;
 	top: 31px;
 	left: 2px;
 	margin-bottom: 104px;
@@ -1215,6 +1218,7 @@ textarea {
   display: inline-block;
   width: 50%;
 	text-transform: uppercase;
+	vertical-align: top;
 }
 
 .max-price {
