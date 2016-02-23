@@ -727,7 +727,8 @@ img {
 	margin-bottom: 13px;
 	color: black;
 	text-transform: uppercase;
-	font-size: 18px;	
+	font-size: 18px;
+	text-decoration: none;
 }
 
 .catalog-item-info {
@@ -1458,4 +1459,7 @@ a.catalog-paginator-next {
 	position: relative;
 	height: 416px;
 	margin: 0 auto;	
+}
+.catalog-item a {
+	text-decoration: none;
 }
