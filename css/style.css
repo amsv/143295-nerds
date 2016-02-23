@@ -1072,6 +1072,7 @@ textarea {
 .feedback-block .feedback-btn {
   float: left;
   width: 220px;
+	border-width: 0; 
 }
 
 .feedback-block .feedback-cancel {
@@ -1341,7 +1342,7 @@ input[type="checkbox"]:disabled + .catalog-label:hover::before {
 	font-size: 12px;
 	line-height: 18px;
 	text-transform: uppercase;
-	border-bottom: 2px #00ca74 dotted; 
+	border-bottom: 1px #00ca74 dotted; 
 	text-decoration: none;
 	text-transform: uppercase;
 	margin-right: 0px;
@@ -1353,7 +1354,7 @@ input[type="checkbox"]:disabled + .catalog-label:hover::before {
 
 .catalog-sort-option:hover {
 	color: #000000;
-	border-bottom: 2px #00ca74 solid; 
+	border-bottom: 1px #00ca74 solid; 
 }
 
 .catalog-sort-option:active {
