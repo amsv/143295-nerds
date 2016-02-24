@@ -57,6 +57,7 @@ h2 {
 	font-size: 16px;
 	line-height: 30px;
 	text-transform: uppercase;
+	font-weight: 500;
 }
 
 p,
@@ -374,6 +375,7 @@ img {
 .offer .btn {
 	margin-top: 27px;
 	padding: 8px 5px;
+	font-weight: 500;
 }
 
 .offer-index-left {
@@ -389,6 +391,7 @@ img {
 	font-size: 18px;
 	line-height: 30px;
 	text-transform: uppercase;
+	font-weight: 500;
 }
 
 .offer-index-middle {
@@ -471,6 +474,7 @@ img {
 
 .features h2 {
 	margin-bottom: 20px;
+	font-weight: 500;
 }
 
 .features-left-column p {
@@ -527,6 +531,7 @@ img {
 	position: relative;
 	text-align: center;
 	margin-bottom: 64px;
+	text-transform: uppercase;
 }
 
 .features-date div{
@@ -595,6 +600,8 @@ img {
 	line-height: 20px;
 	margin-top: 13px;
 	margin-bottom: 20px;
+	font-weight: 500;
+	color: #666666; 
 }
 
 .bottom-footer {
@@ -620,10 +627,6 @@ img {
 	font-size: 36px;
 }
 
-.bottom-footer-right p{
-	color: #283136;
-}
-
 .inner-header {
 	width: 700px;
 	margin-top: 62px; 
@@ -631,12 +634,12 @@ img {
 	text-align: center;
 	font-size: 40px;
 	text-transform: uppercase;
-	line-height: 48px;		
+	line-height: 48px;
+	font-weight: 500;
 }
 
 .catalog {
 	padding-top: 70px;
-
 }
 
 .catalog-left-column {
@@ -1155,6 +1158,7 @@ textarea {
 	font-size: 18px;
 	line-height: 30px;
 	text-transform: uppercase;
+	font-weight: 500;
 }
 
 .catalog-price-title {
@@ -1323,6 +1327,7 @@ input[type="checkbox"]:disabled + .catalog-label:hover::before {
 	padding-right: 42px;
 	width: 155px;
 	height: 38px;
+	font-weight: 400;
 }
 
 .filter-btn:hover {
@@ -1438,6 +1443,7 @@ input[type="checkbox"]:disabled + .catalog-label:hover::before {
 a.catalog-paginator-next {
 	padding-left: 32px;
 	padding-right: 39px;
+	text-transform: uppercase
 }
 
 .catalog-paginator a:hover {
@@ -1461,16 +1467,30 @@ a.catalog-paginator-next {
   overflow: hidden;
 }
 
-#yandex-map {
-	position: relative;
-	height: 416px;
-	margin: 0 auto;	
-}
-
 .catalog-item a {
 	text-decoration: none;
 }
 
 .catalog-sort-arrow a {
 	text-decoration: none;
+}
+
+.bottom-footer-right .bottom-footer-info {
+	color: #283136;
+}
+
+.map-contacts a {
+	font-size: 12px;
+	line-height: 18px;
+	color: #ffffff;
+	font-weight: 500;
+}
+
+.features p,
+.features li {
+	color: #283136;
+}
+
+.catalog-item-block h3 {
+	font-weight: 500;
 }

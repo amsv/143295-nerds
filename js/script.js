@@ -46,7 +46,7 @@ ymaps.ready(function () {
             searchControlProvider: "yandex#search"
         }),
         myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-            hintContent: "Собственный значок метки",
+            hintContent: "Мы здесь!",
             balloonContent: "Это красивая метка"
         }, {
             // Опции.
